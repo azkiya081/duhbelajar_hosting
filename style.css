@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #fffdf6;
+  color: #333;
+}
+
+header {
+  background-color: #5c4033; /* Coklat sapi */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "🐮 ";
+}
+
+footer {
+  background-color: #5c4033;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
